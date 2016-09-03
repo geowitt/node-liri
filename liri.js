@@ -98,7 +98,7 @@ function movieThis() {
             console.log("Language:" + JSON.parse(body) ["Language"]);
             console.log("Plot:" + JSON.parse(body) ["Plot"]);
             console.log("Actors:" + JSON.parse(body) ["Actors"]);
-            console.log("Rotten Tomatoes Rating:" + JSON.parse(body) ["rottenTomatoesRating"]);
+            console.log("Rotten Tomatoes Rating:" + JSON.parse(body) ["Tomatoes"]);
         }
     });
 }
